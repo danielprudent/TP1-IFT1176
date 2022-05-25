@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=TestInterface
+comment0.text=\r\n\tPour\ la\ correction\ du\ devoir,\ nous\ allons\ nous\ bat\u00EF\u00BF\u00BDr\r\n\tun\ programme\ de\ test\ qui\ va\ contenir\ la\ m\u00EF\u00BF\u00BDthode\ main\r\n\t\u00EF\u00BF\u00BD\ ex\u00EF\u00BF\u00BDcuter.\ \ L'interface\ sert\ \u00EF\u00BF\u00BD\ garantir\ la\ syntaxe\r\n\tcommune\ pour\ tous\ les\ travaux.\r\n\r\n
+comment1.params=unJeu
+comment1.target=void\ addJeu(Jeu)
+comment2.params=titre\ fabricant
+comment2.target=Jeu\ getJeu(java.lang.String,\ java.lang.String)
+comment3.params=nomFile
+comment3.target=void\ addBdd(java.lang.String)
+comment4.params=nomFile
+comment4.target=void\ loadBdd(java.lang.String)
+comment5.params=console
+comment5.target=java.util.ArrayList\ chercheConsole(java.lang.String)
+comment6.params=fabricant
+comment6.target=java.util.Collection\ getJeuxFabricant(java.lang.String)
+comment7.params=nomFichier
+comment7.target=void\ saveBdd(java.lang.String)
+comment8.params=laCote
+comment8.target=void\ chercheCote(java.lang.String)
+numComments=9

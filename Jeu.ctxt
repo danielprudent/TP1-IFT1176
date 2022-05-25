@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Jeu
+comment0.text=\ Puisque\ les\ jeux\ devront\ ?tre\ accessibles\ en\ ordre\ tri?s,\r\nil\ est\ n?cessaire\ d'impl?menter\ l'interface\ Comparable
+comment1.params=
+comment1.target=Jeu()
+comment10.params=autre
+comment10.target=boolean\ equals(java.lang.Object)
+comment10.text=\r\n\ On\ "Overide"\ la\ m?thode\ equals\ afin\ de\ pouvoir\ comparer\ cette\ instance\ avec\ une\ autre\ et\ valider\ si\ elles\ sont\ identiques.\r\n\r\n
+comment11.params=console2
+comment11.target=boolean\ trouveConsole(java.lang.String)
+comment2.params=fabricant\ titre
+comment2.target=Jeu(java.lang.String,\ java.lang.String)
+comment3.params=fabricant\ titre\ cote\ ConsoleListe
+comment3.target=Jeu(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.util.LinkedHashSet)
+comment4.params=
+comment4.target=java.lang.String\ GetFabricant()
+comment5.params=
+comment5.target=java.lang.String\ GetTitre()
+comment6.params=
+comment6.target=java.lang.String\ GetCote()
+comment7.params=
+comment7.target=java.util.LinkedHashSet\ Getconsole()
+comment8.params=aConsole
+comment8.target=void\ addConsole(java.lang.String)
+comment9.params=jeu
+comment9.target=int\ compareTo(Jeu)
+numComments=12

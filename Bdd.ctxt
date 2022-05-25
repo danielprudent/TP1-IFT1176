@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Bdd
+comment1.params=
+comment1.target=Bdd()
+comment2.params=unJeu
+comment2.target=void\ addJeu(Jeu)
+comment3.params=titre\ fabricant
+comment3.target=Jeu\ getJeu(java.lang.String,\ java.lang.String)
+comment3.text=\ \ \ \ \ if\ (VideoGame.containsKey(unJeu.GetFabricant()))\r\n\ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ //\ on\ initie\ la\ nouvelle\ valeur\ a\ l\ aide\ des\ valeurs\ dans\ la\ cle\ correspondante\ du\ hashmap\r\n\ \ \ \ \ \ \ \ TousTemp\ \=\ VideoGame.get(unJeu.GetFabricant());\r\n\ \ \ \ \ \ \ \ //\ pas\ besoin\ de\ sort\ le\ tree\ set,\ celui-ci\ est\ trie\ par\ defaut\!\r\n\ \ \ \ \ \ \ \ if(TousTemp.add(unJeu)\ \=\=\ false)\r\n\ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ //Ceilling\ ,\ comparaison\ different\ ->\ add\r\n\ \ \ \ \ \ \ \ \ //equals\r\n\ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ //\ on\ supprime\ lentry\ equivalente\ a\ l<endoit\ ou\ on\ a\ extrait\ la\ data\r\n\ \ \ \ \ \ \ \ //\ pour\ ensuite\ replacer\ le\ set\ modifier\ au\ meme\ emplacemment\ de\ cle\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ VideoGame.remove(unJeu.GetFabricant());\r\n\ \ \ \ \ \ \ \ VideoGame.put(unJeu.GetFabricant(),ensembleTemp);\r\n\ \ \ \ \ \ \ \ }\ else\ {\r\n\ \ \ \ \ \ \ \ //\ pas\ besoin\ de\ sort\ le\ tree\ set,\ celui-ci\ est\ trie\ par\ defaut\!\r\n\ \ \ \ \ \ \ \ ensembleTemp.add(unJeu);\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ VideoGame.put(unJeu.GetFabricant(),ensembleTemp);\ \ \ \ \r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ }\r\n
+comment4.params=nomFile
+comment4.target=void\ addBdd(java.lang.String)
+comment5.params=nomFile
+comment5.target=void\ loadBdd(java.lang.String)
+comment5.text=\r\n\ on\ ouvre\ le\ documment\ texte\ afin\ de\ placer\ les\ \u00EF\u00BF\u00BDl\u00EF\u00BF\u00BDments\ du\ documment\ texte\ sous\ des\ nouveaux\ objets\ jeux.\r\n\ Ces\ nouvelles\ instances\ seront\ par\ la\ suite\ transf\u00EF\u00BF\u00BDr\u00EF\u00BF\u00BDs\ vers\ la\ liste\ Hash\ de\ jeux\ a\ l'aide\ de\ la\ fonction\ AddJeu.\ \r\n\ \r\n\ @author\ (\u00EF\u00BF\u00BDquipe)\r\n\ @version\ (0.1)\ \ \ \ \ \r\n\ @throws\ IOException\r\n
+comment6.params=console
+comment6.target=java.util.ArrayList\ chercheConsole(java.lang.String)
+comment7.params=fabricant
+comment7.target=java.util.Collection\ getJeuxFabricant(java.lang.String)
+comment8.params=nomFichier
+comment8.target=void\ saveBdd(java.lang.String)
+comment9.params=laCote
+comment9.target=void\ chercheCote(java.lang.String)
+numComments=10
